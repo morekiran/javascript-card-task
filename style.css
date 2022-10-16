@@ -1,0 +1,49 @@
+body {
+    background-color: skyblue;
+}
+
+.mainheading {
+    text-align: center;
+    
+}
+
+.cardcontainer{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.cardcontainer1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.profileImage {
+    border-radius: 50%;
+    }
+
+.card {
+    width: 40vh;
+    height: 40vh;
+    background-color: white;
+    border-radius: 8px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.visitprofile{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: pink;
+    border-radius: 5px;
+}
+
+.visitprofile:hover{
+    background-color: sandybrown;
+    color: red;
+}
+
